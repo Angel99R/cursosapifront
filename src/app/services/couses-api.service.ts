@@ -22,3 +22,4 @@ export class CousesApiService {
      return this.http.get(`${this.url}/api/cursos/info_from_url?url=${body}`);
   }
 }
+
